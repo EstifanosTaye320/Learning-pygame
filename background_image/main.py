@@ -1,7 +1,7 @@
 import pygame
 
 pygame.init()
-pygame.display.set_caption("Background Image")
+pygame.display.set_caption("Background Image Pygame")
 pygame.display.set_icon(pygame.image.load("user.png"))
 pygame.display.set_palette
 width = 800
@@ -11,8 +11,8 @@ running = True
 
 font = pygame.font.Font("Caramel.ttf", 40)
 # text = font.render("Estifanos Taye The Engineer", True, (69, 245, 168))
-text = font.render("Estifanos Taye The Engineer :)", True, (84, 247, 176))
-text_rect = text.get_frect(center=(width/2, height/2))
+text = font.render("= Estifanos Taye The Jolly Engineer :)", True, (84, 247, 176))
+text_rect = text.get_frect(center=(width/2 + 20, height/2))
 
 while running:
     for event in pygame.event.get():
